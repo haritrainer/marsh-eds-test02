@@ -1,4 +1,4 @@
-.quote {
+.quote-block-quote {
     position: relative;
     max-width: 700px;
     margin: 0 auto;
@@ -8,7 +8,7 @@
     border-radius: 8px;
   }
   
-  .quote::before {
+  .quote-block-quote::before {
     content: "\201C";
     position: absolute;
     top: -10px; left: 12px;
@@ -17,6 +17,6 @@
     opacity: .25;
   }
   
-  .quote blockquote { margin: 0; font-size: 22px; font-style: italic; }
-  .quote cite { display: block; margin-top: 12px; font-style: normal; font-weight: 700; color: #666; }
+  .quote-block-quote blockquote { margin: 0; font-size: 22px; font-style: italic; }
+  .quote-block-quote cite { display: block; margin-top: 12px; font-style: normal; font-weight: 700; color: #666; }
   

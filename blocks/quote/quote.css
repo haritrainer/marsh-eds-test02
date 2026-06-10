@@ -1,0 +1,22 @@
+.quote-block-quote {
+  position: relative;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 32px 40px;
+  background: var(--light-color, #f8f8f8);
+  border-left: 6px solid var(--link-color, #035fe6);
+  border-radius: 8px;
+}
+  
+.quote-block-quote::before {
+  content: "\201C";
+  position: absolute;
+  top: -10px; left: 12px;
+  font-size: 96px; line-height: 1;
+  color: var(--link-color, #035fe6);
+  opacity: .25;
+}
+
+.quote-block-quote blockquote { margin: 0; font-size: 22px; font-style: italic; }
+.quote-block-quote cite { display: block; margin-top: 12px; font-style: normal; font-weight: 700; color: #666; }
+  
